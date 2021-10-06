@@ -52,3 +52,40 @@ border-bottom: 1px solid #3a3a3a;
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    }
+
+#hero-image {
+
+    height: 600px;
+    width: 100%;
+    background-image: url('../../images/hero-image.webp') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+
+/* Animates zoom effect on loading */
+   animation-name: hero-zoom;
+   animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+/* Creates the effect of zoom for hero */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
