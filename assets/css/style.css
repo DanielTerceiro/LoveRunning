@@ -201,5 +201,22 @@ text-align: right;
 
 #times {
     background-image: url(../../images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 
+}
+
+#times div {
+color: #fafafa;
+background-color: rgba(0, 0, 0, .6);
+width: 25%;
+height: 300px;
+float: left;
+padding: 30px;
+text-align: center;
+border: 2px solid #ffffff;
+box-sizing: border-box;
 }
