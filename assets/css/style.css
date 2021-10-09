@@ -176,7 +176,7 @@ text-align: right;
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
     font-size: 200%;
 }
 
@@ -198,6 +198,14 @@ text-align: right;
 }
 
 /* Classes and Teachers  */
+
+#yoga-class {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
 
 #times {
     background-image: url(../../images/dublin-city.webp);
@@ -267,7 +275,7 @@ color: #3a3a3a;
 @media screen and (max-width: 1200px) {
     #club-yoga {
         width: 85%;
-        height: 1200px;
+        height: 1050px;
         margin: 0 auto;
 
     }
@@ -312,6 +320,12 @@ color: #3a3a3a;
         text-align: center;
         padding: 0 auto;
     }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -332,7 +346,7 @@ color: #3a3a3a;
 
     #club-yoga {
         width : 90%;
-        height: 1200px;
+        height: 1150px;
         margin: 0 auto;
     }
     .left-about-heading, .right-about-heading {
