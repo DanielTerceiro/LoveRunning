@@ -240,7 +240,7 @@ text-align: right;
 
 .line {
     margin: 20px 40px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     display: flex;
 }
 
@@ -261,41 +261,13 @@ text-align: right;
     object-fit: cover;
     border-radius: 50%;
 }
-/*
-#times {
-    background-image: url('../images/times-background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
 
-}
-
-#times div {
-color: #fafafa;
-background-color: rgba(0, 0, 0, .6);
-width: 25%;
-height: 300px;
-float: left;
-padding: 30px;
-text-align: center;
-border: 2px solid #ffffff;
-box-sizing: border-box;
-
-}
-
-#times h2 {
-    color: #fafafa;
-
-}
-*/
 /* Footer */
 
 footer {
      height: 150px;
-     
 }
+
 .social-networks {
     text-align: center;
 
@@ -331,7 +303,7 @@ color: #3a3a3a;
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("../images/form.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -446,8 +418,6 @@ color: #3a3a3a;
         padding: 0 auto;
     }
 
-  
-  
 
 /* For medium screen sizes from 950px wide and down */
 
@@ -488,6 +458,11 @@ color: #3a3a3a;
 
     }
       
+    footer {
+        height: 150px;
+        position: absolute;
+        width: 100%;
+   }
 /* For small screen sizes and down  */
     @media screen and (max-width: 800px)
     {
