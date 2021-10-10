@@ -91,7 +91,7 @@ position: absolute;
 
     height: 600px;
     width: 100%;
-    background-image: url('../css/images/temple.jpg') ;
+    background-image: url('../images/temple.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: center;
@@ -209,25 +209,66 @@ text-align: right;
 }
 
 #circle-cover-bg {
-    background: url(../css/images/yoga-class.jpg) no-repeat center center;
+    background: url(../images/yoga-class.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
 
 /* Classes and Teachers  */
 
 #yoga-class {
     text-align: center;
-    margin: 45px 0;
+    margin: 45px 0 0 0;
     font-size: 200%;
     color: #7b6cd5
 
 }
+.trainings h2 {
+    font-size: 20px;
+    margin-top: 12px;
+    color: #7b6cd5
+    
+}
 
+.trainings p {
+    letter-spacing: 2px;
+    font-size: medium;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
 
+.line {
+    margin: 20px 40px;
+    padding-bottom: 70px;
+    display: flex;
+}
 
+.trainings {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 45px;
+        
+}
+
+.image-link {
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/*
 #times {
-    background-color: #f5f55f;
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 
 }
 
@@ -248,17 +289,12 @@ box-sizing: border-box;
     color: #fafafa;
 
 }
-#teacher{
-    background-image: url(../css/images/runner1.jpg);
-    height: 300px;
-    width: 25%;
-}
-
-
+*/
 /* Footer */
 
 footer {
-    height: 150px;
+     height: 150px;
+     
 }
 .social-networks {
     text-align: center;
@@ -350,7 +386,7 @@ color: #3a3a3a;
 
 /* Media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     #club-yoga {
         width: 85%;
         height: 1050px;
@@ -363,12 +399,23 @@ color: #3a3a3a;
         margin: 0;
 
     }
-
+    
     #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
         
+    }
+    #times  {
+        width: 90%;
+        height: 1050px;
+        margin: 0 auto;
+        ;
+
+}
+    .line {
+        flex-wrap: wrap;
+        row-gap: 10px;
     }
     
     #center-about {
@@ -398,13 +445,9 @@ color: #3a3a3a;
         text-align: center;
         padding: 0 auto;
     }
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-}
+
+  
+  
 
 /* For medium screen sizes from 950px wide and down */
 
@@ -455,5 +498,3 @@ color: #3a3a3a;
 
     }
     
-}
-
