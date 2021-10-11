@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     color: #3a3a3a;
     position: relative;
-    height: 100%;
+    
 
 }
 
@@ -269,14 +269,14 @@ text-align: right;
 /* Footer */
 
 footer {
-      height: 150px;
-    
+   
+    height:100px;    
      
 }
 
 .social-networks {
     text-align: center;
-
+    
 }
 
 .social-networks > li {
@@ -315,13 +315,13 @@ color: #3a3a3a;
     height: 900px;
 }
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 20px 35px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 450px;
+    max-width: 650px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    right: 20px;
+    padding: 30px ;
     
 }
 .signup-form h2 {
@@ -362,6 +362,38 @@ color: #3a3a3a;
     
 }
 
+/* Our Classes */
+
+.schedule {
+    clear: both;
+    text-align: center;
+    
+    }
+
+.schedule h2 {
+    color: #7b6cd5;
+   padding-top: 30px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    clear: both;
+    border: 2px solid rgb(5, 117, 48)
+}
+
+
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
@@ -386,7 +418,7 @@ color: #3a3a3a;
     }
     #times  {
         width: 90%;
-        height: 1050px;
+        
         margin: 0 auto;
         ;
 
