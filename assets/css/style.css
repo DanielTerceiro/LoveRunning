@@ -32,15 +32,17 @@ h1, h2 {
     float: left;
     font-size: 180%;
     margin-left: 35px;
+   }
+.lotus {
+    float:left;
 }
-
 /* Navigation links */
 
 #menu {
     font-size: 90%;
     letter-spacing: 4px;
 }
-#menu, #logo {
+#menu, #logo{
     line-height: 75px;
 }
 
@@ -101,22 +103,22 @@ position: absolute;
     background-position-y: center;
 
 /* Animates zoom effect on loading */
-   animation-name: hero-zoom;
-   animation-duration: 4s;
-    animation-fill-mode: forwards;
+animation-name: hero-zoom;
+animation-duration: 4s;
+ animation-fill-mode: forwards;
 }
 
 
 /* Creates the effect of zoom for hero */
 
 @keyframes hero-zoom {
-    from {
-        transform: scale(1);
+ from {
+     transform: scale(1);
 
-    }
-    to {
-        transform: scale(1.1)
-    }
+ }
+ to {
+     transform: scale(1.1)
+ }
 }
 
 /* Club Yoga */
@@ -317,7 +319,7 @@ color: #3a3a3a;
 .signup-form {
     margin: 20px 35px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.7);
     max-width: 650px;
     position: absolute;
     right: 20px;
@@ -370,12 +372,21 @@ color: #3a3a3a;
     
     }
 
+.center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 90%;
+        clear: both;
+        border: 2px solid #7b6cd5
+    }
+
 .schedule h2 {
-    color: #7b6cd5;
+    color:  #7b6cd5 ;
    padding-top: 30px;
+  
 }
 table {
-    display: table;
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
@@ -383,15 +394,23 @@ table {
 tbody {
     display: table-row-group;
     vertical-align: middle;
+    border-color: inherit;
 }
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    width: 90%;
-    clear: both;
-    border: 2px solid rgb(5, 117, 48)
+
+th {
+    background-color: #7b6cd5;
+    color: white;
 }
+
+
+th, td {
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
 
 
 /* Media queries */
@@ -510,4 +529,3 @@ tbody {
             }
 
     }
-    
