@@ -12,7 +12,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: #3a3a3a
+    color: #3a3a3a;
+    position: relative;
+    height: 100%;
+
 }
 
 
@@ -120,6 +123,7 @@ position: absolute;
 
 #club-yoga {
 height: 600px;
+padding-bottom: 50px;
 
 }
 
@@ -265,7 +269,9 @@ text-align: right;
 /* Footer */
 
 footer {
-     height: 150px;
+      height: 150px;
+    
+     
 }
 
 .social-networks {
@@ -312,7 +318,7 @@ color: #3a3a3a;
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 450px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -334,23 +340,23 @@ color: #3a3a3a;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #7b6cd5;
 }
 
 .join-button{
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #7b6cd5;
     color: #fafafa;
     display:block;
     
 }
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #7b6cd5;
     
     
     
@@ -358,11 +364,11 @@ color: #3a3a3a;
 
 /* Media queries */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
     #club-yoga {
         width: 85%;
-        height: 1050px;
-        margin: 0 auto;
+        height: 1200px;
+        margin: auto;
 
     }
 
