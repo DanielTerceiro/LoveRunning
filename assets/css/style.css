@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap');
 
-    *{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 #cover-text h2 {
     color: #ffffff;
+    text-shadow: 2px 2px 8px #000;
 }
 
 body {
@@ -14,35 +16,41 @@ body {
     font-weight: 400;
     color: #3a3a3a;
     position: relative;
-    
+
 
 }
 
 
 /* Headlines and Logos */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-   
+
     letter-spacing: 4px;
     color: #252525;
 }
+
 #logo {
     float: left;
     font-size: 180%;
     margin-left: 35px;
-   }
-.lotus {
-    float:left;
 }
+
+.lotus {
+    float: left;
+    }
+
 /* Navigation links */
 
 #menu {
     font-size: 90%;
     letter-spacing: 4px;
 }
-#menu, #logo{
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -52,12 +60,13 @@ h1, h2 {
     margin-right: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
-border-bottom: 2px solid #7b6cd5;
+    border-bottom: 2px solid #7b6cd5;
 }
 
 .active {
@@ -69,63 +78,64 @@ border-bottom: 2px solid #7b6cd5;
 #hero-outer {
     height: 600px;
     width: 100%;
-   overflow: hidden;
+    overflow: hidden;
     position: relative;
-    }
+}
 
 
 #cover-text {
-color: #ffffff;
-font-size: 130%;
-font-family: 'Josefin Sans', sans-serif;
-font-weight: 400;
+    color: #ffffff;
+    font-size: 130%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 
 
-width: 600px;
-height: 200px;
+    width: 600px;
+    height: 200px;
 
-padding-top: 40px;
-padding-left: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
 
-bottom: 180px;
-right: 150px;
-position: absolute;
+    bottom: 180px;
+    right: 150px;
+    position: absolute;
 }
 
 #hero-image {
 
     height: 600px;
     width: 100%;
-    background-image: url('../images/temple.jpg') ;
+    background-image: url('../images/temple.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: center;
     background-position-y: center;
 
-/* Animates zoom effect on loading */
-animation-name: hero-zoom;
-animation-duration: 4s;
- animation-fill-mode: forwards;
+    /* Animates zoom effect on loading */
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 
 /* Creates the effect of zoom for hero */
 
 @keyframes hero-zoom {
- from {
-     transform: scale(1);
+    from {
+        transform: scale(1);
 
- }
- to {
-     transform: scale(1.1)
- }
+    }
+
+    to {
+        transform: scale(1.1)
+    }
 }
 
 /* Club Yoga */
 
 #club-yoga {
-height: 600px;
-padding-bottom: 50px;
+    height: 600px;
+    padding-bottom: 50px;
 
 }
 
@@ -134,7 +144,7 @@ padding-bottom: 50px;
     padding-top: 30px;
     width: 33%;
     float: left;
-   
+
 }
 
 #right-about {
@@ -142,12 +152,12 @@ padding-bottom: 50px;
     padding-top: 30px;
     width: 33%;
     float: right;
-    
+
 }
 
 #center-about {
-width: 33%;
-margin: 0 auto;
+    width: 33%;
+    margin: 0 auto;
 
 }
 
@@ -157,13 +167,15 @@ hr {
     margin: 5px;
 
 }
-#icon-right{
+
+#icon-right {
     margin-bottom: 8px;
-    
+
 }
-#icon-left{
+
+#icon-left {
     margin-bottom: 8px;
-    
+
 }
 
 
@@ -173,9 +185,10 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    
+
 }
-.left-about-heading h2{
+
+.left-about-heading h2 {
 
     font-style: italic;
     margin-bottom: 8px;
@@ -188,14 +201,15 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
-text-align: right;
-font-style: italic;
-margin-bottom: 8px;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 8px;
 }
 
 .right-about-heading p {
-text-align: right;
+    text-align: right;
 
 }
 
@@ -210,7 +224,7 @@ text-align: right;
     width: 400px;
     height: 400px;
     padding: 30px;
-   
+
     margin: 0 auto;
 }
 
@@ -228,13 +242,12 @@ text-align: right;
     margin: 45px 0 0 0;
     font-size: 200%;
     color: #7b6cd5
-
 }
+
 .trainings h2 {
     font-size: 20px;
     margin-top: 12px;
     color: #7b6cd5
-    
 }
 
 .trainings p {
@@ -257,7 +270,7 @@ text-align: right;
     margin-right: auto;
     margin-top: 30px;
     border-radius: 45px;
-        
+
 }
 
 .image-link {
@@ -271,26 +284,35 @@ text-align: right;
 /* Footer */
 
 footer {
-   
-    height:100px;    
-     
+
+    height: 100px;
+    background-color: #7b6cd5
 }
 
 .social-networks {
     text-align: center;
-    
+    position: relative;
+    top: 35%;
 }
 
-.social-networks > li {
+.find {
+    font-size: 15px;
+    color: #fafafa;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+
+.social-networks>li {
     display: inline;
+    padding: 0 1% 0;
 
 }
 
 .social-networks i {
-font-size: 160%;
-margin: 1%;
-padding: 5%;
-color: #3a3a3a;
+    font-size: 150%;
+    color: #fafafa;
 }
 
 /* Gallery */
@@ -302,7 +324,7 @@ color: #3a3a3a;
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 
 }
@@ -315,7 +337,9 @@ color: #3a3a3a;
     background-size: cover;
     background-position: center;
     height: 900px;
+    
 }
+
 .signup-form {
     margin: 20px 35px;
     color: #fff;
@@ -323,14 +347,24 @@ color: #3a3a3a;
     max-width: 650px;
     position: absolute;
     right: 20px;
-    padding: 30px ;
+    padding: 30px;
     
 }
+
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+textarea {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 
+}
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -339,13 +373,14 @@ color: #3a3a3a;
     margin: 5px 0 20px;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    
 }
 
 .text-input:hover {
     border-color: #7b6cd5;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
     border-radius: 5px;
     padding: 15px 32px;
@@ -353,15 +388,16 @@ color: #3a3a3a;
     font-size: 100%;
     background-color: #7b6cd5;
     color: #fafafa;
-    display:block;
-    
+    display: block;
+
 }
+
 .join-button:hover {
     background-color: #fafafa;
     color: #7b6cd5;
-    
-    
-    
+
+
+
 }
 
 /* Our Classes */
@@ -369,28 +405,31 @@ color: #3a3a3a;
 .schedule {
     clear: both;
     text-align: center;
-    
-    }
+
+}
 
 .center {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        width: 90%;
-        clear: both;
-        border: 2px solid #7b6cd5
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    clear: both;
+    border: 2px solid #7b6cd5;
+    margin-bottom: 250px;
+}
 
 .schedule h2 {
-    color:  #7b6cd5 ;
-   padding-top: 30px;
-  
+    color: #7b6cd5;
+    padding-top: 30px;
+
 }
+
 table {
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
 }
+
 tbody {
     display: table-row-group;
     vertical-align: middle;
@@ -403,11 +442,12 @@ th {
 }
 
 
-th, td {
+th,
+td {
     margin-top: 100px;
     padding: 10px;
     text-align: center;
-    
+
 }
 
 
@@ -428,104 +468,118 @@ th, td {
         margin: 0;
 
     }
-    
-    #left-about, #right-about {
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
-        
+
     }
-    #times  {
+
+    #times {
         width: 90%;
-        
+
         margin: 0 auto;
         ;
 
-}
+    }
+
     .line {
         flex-wrap: wrap;
         row-gap: 10px;
     }
-    
+
     #center-about {
-      clear: both;
-      width: 100%;
+        clear: both;
+        width: 100%;
         float: left;
-      padding: 0;
+        padding: 0;
 
     }
 
     hr {
         display: none;
     }
-    .left-about-heading , .right-about-heading {
+
+    .left-about-heading,
+    .right-about-heading {
         width: 100%;
         text-align: center;
-       
 
-    } 
 
-    .left-about-heading h2, .right-about-heading h2 {
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
-    .left-about-heading p, .right-about-heading p {
+
+    .left-about-heading p,
+    .right-about-heading p {
 
         text-align: center;
         padding: 0 auto;
     }
 
 
-/* For medium screen sizes from 950px wide and down */
+    /* For medium screen sizes from 950px wide and down */
 
-@media screen and (max-width: 950px){
+    @media screen and (max-width: 950px) {
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
 
-    #cover-text {
-        left: 0;
-    }
+        #cover-text {
+            left: 0;
+        }
 
-    #club-yoga {
-        width : 90%;
-        height: 1150px;
-        margin: 0 auto;
-    }
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-    .left-about-heading p, .right-about-heading p {
+        #club-yoga {
+            width: 90%;
+            height: 1150px;
+            margin: 0 auto;
+        }
 
-        text-align: center;
-        padding: 0 20px;
-    }
+        .left-about-heading,
+        .right-about-heading {
+            width: inherit;
+        }
 
-    #photos {
-        column-count: 3;
+        .left-about-heading h2,
+        .right-about-heading h2 {
+            width: 100%;
+            text-align: center;
+        }
 
-    }
-      
-    footer {
-        height: 150px;
-        position: absolute;
-        width: 100%;
-   }
-/* For small screen sizes and down  */
-    @media screen and (max-width: 800px)
-    {
+        .left-about-heading p,
+        .right-about-heading p {
+
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        #photos {
+            column-count: 3;
+
+        }
+
+        footer {
+            height: 100px;
+            position: absolute;
+            width: 100%;
+        }
+
+        /* For small screen sizes and down  */
+        @media screen and (max-width: 800px) {
             #photos {
                 column-count: 2;
-                              
+
             }
 
-    }
+        }
