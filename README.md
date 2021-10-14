@@ -80,3 +80,13 @@ I deployed the page on GitHub pages via the following procedure:
 * After a brief time, a message will apper as "Your site is published at..."
 
 ## Credits
+
+### Mentions
+
+
+### Gereral Reference
+* The Love Running project walktrought as base for my project and general guidance
+* https://w3schools.com for general advice and techniques to solve daily issues
+* CI Slack Community for helping with day-to-day questions
+* All Medias extracted from https://pexels.com
+* Icons in the footer were taken from https://fontawesome.com
