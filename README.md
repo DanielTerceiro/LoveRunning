@@ -71,4 +71,12 @@ $ npm start
 
 ## Deployment
 
+I deployed the page on GitHub pages via the following procedure:
+* Go to https://github.com and login
+* Navigate to the required repository: Yoga-Natural
+* Go to settings 
+* Go down to "GitHub Pages"
+* Select the source (I chose master branch )
+* After a brief time, a message will apper as "Your site is published at..."
+
 ## Credits
