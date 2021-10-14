@@ -27,7 +27,7 @@ The main colors used were purple, pink for logo, black for text and white for ba
 
 ## UI
 ### Color Scheme
-
+(./docs/color-scheme.png)
 
 ### Typography
 
