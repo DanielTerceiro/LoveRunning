@@ -27,9 +27,24 @@ The main colors used were purple, pink for logo, black for text and white for ba
 
 ## UI
 ### Color Scheme
-(./docs/color-scheme.png)
+I wanted a color scheme simple and relaxing, thus using for all pages:
+* purple (#7b6cd5) for nav bar selected, sub-titles and footer
+* red-magenta (#e88bba) for the logo
+* black (#000000) for paragrah text 
+* off-white (#fafafa) for itens over other colors and background
+
+![color-scheme](https://user-images.githubusercontent.com/91693065/137393634-170449c4-63a3-4207-86c4-f5189b240fab.png)
+
+All colors were selected from https://coolors.co/
 
 ### Typography
+
+Following the same principle on the color schema, I wanted to keep it simple, efficient and able to run on any type of browser old or new, so using google fonts was the best option and fonts that are common use:
+
+Montserrat and Open Sans
+
+And a more sofisticated font for 
+
 
 ## Features
 ### Existing Features
