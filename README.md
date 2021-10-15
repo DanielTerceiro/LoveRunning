@@ -33,7 +33,7 @@ I wanted a color scheme simple and relaxing, thus using for all pages:
 * black (#000000) for paragrah text 
 * off-white (#fafafa) for itens over other colors and background
 
-![color-scheme](https://user-images.githubusercontent.com/91693065/137393634-170449c4-63a3-4207-86c4-f5189b240fab.png)
+![color-scheme](assets/doc-readme/color-scheme.png)
 
 All colors were selected from https://coolors.co/
 
