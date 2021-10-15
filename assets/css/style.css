@@ -454,6 +454,7 @@ td {
     margin-top: 100px;
     padding: 10px;
     text-align: center;
+    font-size: 14px;
 
 }
 
@@ -486,10 +487,8 @@ td {
 
     #times {
         width: 90%;
-
         margin: 0 auto;
-        ;
-
+        
     }
 
     .line {
@@ -529,7 +528,7 @@ td {
         text-align: center;
         
     }
-
+}
 
     /* For medium screen sizes from 950px wide and down */
 
@@ -575,7 +574,6 @@ td {
             width: 300px;
             height: 300px;
             padding: 15px;
-        
             margin: 0 auto;
         }
 
@@ -589,7 +587,7 @@ td {
             position: absolute;
             width: 100%;
         }
-
+    }
         /* For small screen sizes and down  */
         @media screen and (max-width: 800px) {
             #photos {
