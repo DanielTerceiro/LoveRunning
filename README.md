@@ -29,7 +29,9 @@ The main colors used were purple, pink for logo, black for text and white for ba
 * Frequent users would have the same needs as a returning user.
 
 ## Wireframes
-I designed the wireframes on Balsamiq, below I linked the folder with my wireframes, I kept it simple, as a low fidelity wireframes to be used as a guide for the design of the website.
+I designed the wireframes on Balsamiq, below I linked the folder with my wireframes, I kept it simple, as a low fidelity wireframes to be used as a guide for the design of the website, but in general I kept the same format as it was straight forward what I had in mind for a easy to use and understand website, no complications or unecessary information.
+
+[Wireframes Project 1](https://github.com/DanielTerceiro/Yoga-Natural/tree/main/assets/doc-readme/wireframes)
 
 ## UI
 ### Color Scheme
@@ -47,7 +49,7 @@ All colors were selected from [Coolors](https://coolors.co/)
 
 Following the same principle on the color schema, I wanted to keep it simple, efficient and able to run on any type of browser old or new, so using google fonts was the best option and font that are common use:
 
-* Montserrat - was my choice of use for the versatilite to be able to be used as header and paragraph
+* **Montserrat** - was my choice of use for the versatilite to be able to be used as header and paragraph and for being open source.
 
 
 
@@ -55,27 +57,27 @@ Following the same principle on the color schema, I wanted to keep it simple, ef
 * All pages are responsive
 * The header and footer remain the same across all pages on all sizes - mantaining the facility to navigate back and forth
 
-* Header
+<br> **Header**
 ![Header](assets/doc-readme/header.jpg)
-* Footer
+<br> **Footer**
 ![Footer](assets/doc-readme/footer.jpg)
 
 ### Visual
-* **Homepage - Desktop**
+* **Homepage - Desktop**<br>
 For the homepage my goal was to have a hero image covering the whole width of the screen and leading to a section describing the advantages of each yoga type and below all classes available for customers.
 ![Desktop homepage](assets/doc-readme/desktop_homepage.jpg)
 
-* **Classes - Desktop**
+* **Classes - Desktop**<br>
 The Classes page have the sole purpose to show the day, hours and type of classes available, with no unnecessary information
 
 ![Desktop classes](assets/doc-readme/desktop_our_classes.jpg)
 
 
-* **Gallery - Desktop**
+* **Gallery - Desktop**<br>
 The Gallery page was created with the idea to give the customer an idea of the studio and the classes, a way to vizualize the experience
 ![Desktop homepage](assets/doc-readme/desktop_gallery.jpg)
 
-* **Join Us - Desktop**
+* **Join Us - Desktop**<br>
 The Join Us page have a simple form were the customer can get in touch to get answers relevant to the classes
 ![Desktop homepage](assets/doc-readme/desktop_join_us.jpg)
 
@@ -100,12 +102,35 @@ Below is everything that I used throughout development for the building of the w
 	
 ## Testing
 I ran all my code through the [W3C Markup Validation Service](https://validator.w3.org/) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-Both pointed me on a few errors that I was capable of solving as:
-More than one use of "H1", some images with low contrast to the background, unnecessary closing tag, and parse error on CSS code due to unclosed tag.
+Both pointed me on a few errors that I was capable of solving as:<br>
+* More than one use of "H1"
+* Some images with low contrast to the background
+* Unnecessary closing tag
+* Parse error on CSS code due to unclosed tag.<br>
 
-Link for the result of the test with the errors fixed:
+Link for the result of the test with the errors fixed:<br>
+[CSS](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/css-validator/css.jpg)<br>
+[Homepage](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/index.jpg)<br>
+[Classes](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/classes.jpg)<br>
+[Gallery](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/gallery.jpg)<br>
+[Join Us](https://github.com/DanielTerceiro/Yoga-Natural/blob/main/assets/doc-readme/html-validator/joinus.jpg)<br>
 
 
+### GTMetrix
+
+This website has been tested through the GTMetrix site, GTmetrix. Below is a screenshot of the results achieved. Page performance was 100% and the time to fully load the site was 0.6s.
+
+![gtmetrix speed test](assets/doc-readme/test.jpg)
+
+### Lighthouse
+
+Tested on desktop and mobile
+
+**Desktop**
+![Desktop Lighthouse test](assets/doc-readme/desktop_lighthouse.png)
+
+**Mobile**
+![Mobile Lighthouse test](assets/doc-readme/mobile_lighthouse.png)
 
 ## Bugs
 During the process of creating the website I enconter some bugs and issues:
